@@ -16,8 +16,10 @@ _global_script_class_icons={
 [application]
 
 config/name="SpaceTanks"
+run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
 [rendering]
 
+environment/default_clear_color=Color( 0.0156863, 0.0392157, 0.215686, 1 )
 environment/default_environment="res://default_env.tres"
